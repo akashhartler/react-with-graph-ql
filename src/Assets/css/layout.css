@@ -1,0 +1,36 @@
+.outerWrapper {
+  padding: 5px 20px;
+}
+.searchWrapper {
+  display: flex;
+}
+.searchWrapper input:focus{
+  outline: none;
+  box-shadow: none;
+  border-color: #ccc;
+}
+.header a{
+  color: #fff;
+}
+/* Heading */
+.outerWrapper h2 {
+  font-size: 32px;
+  line-height: 36px;
+}
+.searchWrapper {
+  margin-bottom: 10px;
+  max-width: 30%;
+  margin-left: auto;
+}
+form {
+  width: 100%;
+}
+.searchWrapper form {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* .ant-btn:focus {
+  border: 1px solid #d9d9d9;
+  color: #d9d9d9;
+} */
